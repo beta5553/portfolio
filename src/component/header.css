@@ -1,6 +1,6 @@
 body {
-    background-color: #c3c9c9;
-    font-family: 'Bangers', cursive;;
+    background-color: #6785b3;
+    font-family: 'Comfortaa', cursive;
     font-size: 25px;
 }
 
@@ -11,7 +11,8 @@ ul.sidenav {
     margin: 0;
     padding: 0;
     width: 15%;
-    background-color: #f1f1f1;
+    /*background-color: #f1f1f1;*/
+    background-color: #7f63aa;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -30,15 +31,18 @@ ul.sidenav li a.active {
 }
 
 ul.sidenav li a:hover:not(.active) {
-    background-color: #555;
+    /*background-color: #555;*/
+    background-color: #6785b3;
     color: white;
 }
 
 div.content {
     margin-left: 25%;
+    margin-right: 15%;
     padding: 1px 16px;
-    font-family: 'Bangers', cursive;;
-    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    text-align: left;
     /*height: 1000px;*/
 }
 
@@ -54,7 +58,9 @@ div.content {
         padding: 15px;
     }
 
-    div.content {margin-left: 0;}
+    div.content {
+        margin-left: 0;
+    }
 }
 
 @media screen and (max-width: 400px) {

@@ -6,17 +6,16 @@ import Vcard from './component/Vcard';
 import AppBar from './component/SearchAppBar';
 import Navigation from "./component/Navigation";
 import Content from "./component/Content";
-import HomeContent from "./component/HomeContent";
 import Contact from './component/Contact';
+import HeroImage from "./component/HeroImage";
 
 function App() {
   return (
     <div className="App">
+        <HeroImage />
         <Header name={"Sound sampler"} />
-        {/*<Vcard name={"card1"} />*/}
         <Navigation />
         <Content />
-        <HomeContent />
         <Contact />
 
       {/*<header className="App-header">*/}

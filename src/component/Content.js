@@ -5,7 +5,8 @@ function Content(props) {
     return (
         <div>
             <div className="content">
-                <h1>Israel Morales Lopez</h1>
+                <h1><a name='home'>Israel Morales Lopez</a></h1>
+                <br />
                 <p><a href={"https://www.youracclaim.com/badges/c6a53296-3c2b-4d5b-88ab-e9e1048ad816"}>Oracle Java Certified Programmer.</a></p>
 
                 <p>Hello, my name is Israel Morales. I am a full-stack developer with 15+ years of experience. I am software, sports and music enthusiast.</p>
@@ -24,10 +25,11 @@ function Content(props) {
                 Currently i am using Heroku to store my DB on the cloud due AWS is kind of expensive even when you are developing and using EC2 or Beanstalk VMs.
                 </p>
 
-                <p>Click here to go to my GitHub: <a href={'https://github.com/beta5553'}>https://github.com/beta5553</a></p>
+                <p>Visit my GitHub: <a href={'https://github.com/beta5553'}>https://github.com/beta5553</a></p>
 
+                <br /><br /><br /><br /><br /><br />
                 <a name='projects'><h1>Projects</h1></a>
-                <p>Software engineer at Colorado Department of Human Services (CDHS) /Governor's Office of Information Technology (GOIT).</p>
+                <p><b>Software engineer at the Colorado Department of Human Services (CDHS) / Governor's Office of Information Technology (GOIT).</b></p>
                 <p>My responsibilities are to maintain and support production and low level environments for some of the government applications such as Child Support, etc. I am in charge to deploy all new code into the UAT / SIT / POC / PROD environments, including the Web Applications, the SOA applications and inject DB scripts.</p>
                 <p>Part of my responsibilities are to code changes for Liferay (State Portal) , all written in java and mainly focused in the security involving Active Directory, EDirectory, LDAP transactions, Bindings, etc.</p>
                 <p>I have created also some java batch jobs to automate some of the most common tasks in my team, some of them to create database reports and send them via email, other batch jobs to complete mechanical tasks such as transfer software artifacts to avoid manual code deployments over windows / linux servers.</p>
@@ -35,19 +37,18 @@ function Content(props) {
                 <p>Some of my current responsibilities:</p>
 
                 <ul>
-                    <li>1- Application monitoring (Linux Servers, Web Servers, Application Servers, Database Servers and java applications.)</li>
-                    <li>2- Create java batch jobs / applications to automate recurrent manual tasks. (Task automation).</li>
-                    <li>3- Code deployments. (Java, JEE, SOA and SQL artifacts).</li>
-                    <li>4- Application Development. (Liferay, Java, JS, AJAX, DB, LDAP coding, release new features and maintain current ones).</li>
-                    <li>5- Ticket tracking, attend and track tickets created by the state of Colorado.</li>
-                    <li>6- Monitor State Systems.</li>
-                    <li>7- Management of small projects.</li>
-                    <li>8- Technical leader of development and code versioning.</li>
-                    <li>9- Agile methodology used.</li>
+                    <li>Application monitoring (Linux Servers, Web Servers, Application Servers, Database Servers and java applications.)</li>
+                    <li>Create java batch jobs / applications to automate recurrent manual tasks. (Task automation).</li>
+                    <li>Code deployments. (Java, JEE, SOA and SQL artifacts).</li>
+                    <li>Application and web development and maintenance. (Liferay, Java, JS, JSON, DB, LDAP, and to release new features and maintain current ones).</li>
+                    <li>Ticket tracking, attend and track issues reported by the employees of the state of Colorado.</li>
+                    <li>Batch and cron jobs development using Java</li>
+                    <li>Management of small projects.</li>
+                    <li>Technical leader of development and code versioning.</li>
+                    <li>Agile methodology used.</li>
                 </ul>
 
-                <p>Technologies used on this project: Java, Spring Boot, IntelliJ, Eclipse, SVN, GIT, Liferay, SSH, MySQL and LDAP.</p>
-
+                <p>Technologies used on this project: Java, Tomcat, JBoss, Web Services, IntelliJ, Eclipse, SVN, GIT, Liferay, SSH, MySQL and LDAP.</p>
 
             </div>
         </div>
